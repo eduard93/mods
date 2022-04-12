@@ -8,7 +8,7 @@ add_definitions(-std=c++11)
 SET(WITH_CAFFE FALSE)
 
 message("Looking for OpenCV")
-#SET (OpenCV_DIR "/usr/local/opencv-2.4.9/")
+SET (OpenCV_DIR "/usr/local/opencv-4.5.5/")
 #set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "/windows/mods/mods-video/binary_desc/brisk/")
 FIND_PACKAGE( OpenCV  )
 if (OPENCV_FOUND)
